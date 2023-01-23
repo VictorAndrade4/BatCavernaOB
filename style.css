@@ -1,0 +1,34 @@
+img {
+    border-radius: 8px;
+}
+
+.moradores-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.morador-container img {
+    width: 300px;
+}
+
+.morador-container {
+    width: 400px;
+    margin: 8px 8px 8px 24px;
+}
+
+.historia-container img {
+    width: 300px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+}
+
+.historia-container {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
