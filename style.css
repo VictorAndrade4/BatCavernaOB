@@ -15,7 +15,9 @@ img {
 
 .morador-container {
     width: 400px;
-    margin: 8px 8px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
 }
 
 .historia-container img {
@@ -32,3 +34,13 @@ img {
     flex-wrap: wrap;
 }
 
+.contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.redes-sociais-container {
+    font-size: medium;
+}
